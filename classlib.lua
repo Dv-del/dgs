@@ -299,6 +299,7 @@ class {
 		dgsSwitchButton = function(...) return dgsOOP.dgsSwitchButton(dgsRootInstance,...) end,
 		dgsTabPanel = function(...) return dgsOOP.dgsTabPanel(dgsRootInstance,...) end,
 		dgsWindow = function(...) return dgsOOP.dgsWindow(dgsRootInstance,...) end,
+		dgsSelector = function(...) return dgsOOP.dgsSelector(dgsRootInstance,...) end,
 		dgsGetInstance = function(dgsElement,...)
 			local typ = type(dgsElement)
 			if typ ~= "table" and typ ~= "userdata" then return dgsElement end
@@ -496,6 +497,7 @@ class {
 		dgsScrollPane = function(...) return dgsOOP.dgsScrollPane(...) end,
 		dgsSwitchButton = function(...) return dgsOOP.dgsSwitchButton(...) end,
 		dgsTabPanel = function(...) return dgsOOP.dgsTabPanel(...) end,
+		dgsSelector = function(...) return dgsOOP.dgsSelector(...) end,
 	};
 	default = {
 
